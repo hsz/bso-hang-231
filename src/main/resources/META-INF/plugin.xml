@@ -1,10 +1,12 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.hsz.bsohang231</id>
-    <name>IntelliJ Platform Plugin bso-hang-231</name>
+    <name>bso-hang-231</name>
     <vendor>hsz</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.hsz.bsohang231.services.MyApplicationService"/>
